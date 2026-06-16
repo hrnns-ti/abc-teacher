@@ -3,13 +3,25 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  
+  --color-primary: #4208B3;
+  --color-primary-light: #D2BBFF;
+  
+  --color-accent-blue: #3939FF;
+  --color-accent-orange: #F75B35;
+  --color-accent-yellow: #FFBB22;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  
+  --color-primary: var(--color-primary);
+  --color-primary-light: var(--color-primary-light);
+  
+  --color-accent-blue: var(--color-accent-blue);
+  --color-accent-orange: var(--color-accent-orange);
+  --color-accent-yellow: var(--color-accent-yellow);
 }
 
 @media (prefers-color-scheme: dark) {
