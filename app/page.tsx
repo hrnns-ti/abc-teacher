@@ -10,7 +10,7 @@ export default function Home() {
         {/* slogan & desc & card  */}
         <div className="w-full pt-16 pb-8 md:pt-36 md:pb-16 gap-8 md:gap-12 flex flex-col">
           <div className="flex flex-col lg:flex-row gap-6 items-start lg:items-center justify-between">
-            <h1 className="max-w-6xl text-3xl sm:text-4xl lg:text-5xl font-bold bg-amber-400 p-5 sm:p-6 rounded-3xl sm:rounded-4xl rounded-br-none leading-tight">
+            <h1 className="max-w-6xl text-3xl sm:text-4xl lg:text-5xl font-bold bg-amber-400 p-5 sm:p-6 rounded-3xl sm:rounded-4xl *:rounded-br-none leading-tight">
               Improve your English level
             </h1>
             <p className="max-w-md text-base sm:text-lg lg:text-xl text-gray-700">
